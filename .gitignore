@@ -1,0 +1,12 @@
+work/
+outputs/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.spec
+*.dpapi
+*.key
+*.pfx
+*.p12
+*-private.pem

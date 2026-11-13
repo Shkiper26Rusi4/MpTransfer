@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Marketplace Transfer — связь с приложением",
+  "version": "0.1.1",
+  "description": "Чтение объявлений и заполнение черновиков Авито через локальное приложение. Без доступа к cookies.",
+  "permissions": [
+    "nativeMessaging",
+    "scripting",
+    "tabs",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://avito.ru/*",
+    "https://*.avito.ru/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA72iC1gbm3DhqWjVfLSOrcl0ejpJfbBE88dz/kwiHy6RozcBv+JBxUM9zr1+1V+bj/8KR/DDJ0qK1jfEvyTL1U8bBTl5Xv219buP4VIFrzk5USTGBLei4JdHA/hCGlhCLFmBmcMGWpO9ZEDWr15l9oWsb0QQHj9NMD83IFedbu+L0PIl5b6mn2xDPEry/xLw7T7rCVGkG1yDi+mamjdXGDJoghvhk6YA88GA+DC5BThNaLiOGAaOOKGgyVokfws4bd/kscWmR9yGPegzPHV0cJEbA7oolC5wK4c9Ui5QmZKHN3vy3kGQ9zRjrRT0et/qn1sMU13KstJPeLFKXQbh7pwIDAQAB"
+}
